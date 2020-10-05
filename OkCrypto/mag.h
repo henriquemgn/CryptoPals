@@ -95,7 +95,7 @@ namespace mag
 
         std::string textTest;
         std::ifstream MyReadFile;
-        MyReadFile.open("/Users/henri/OneDrive/Documentos/OkCrypto/4.txt");
+        MyReadFile.open("4.txt");
 
         while (getline (MyReadFile, textTest)) {
                 int textTestlength = textTest.size();
